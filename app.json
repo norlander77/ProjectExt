@@ -1,0 +1,41 @@
+{
+  "id": "7c69a51e-4c85-43cc-ba9e-6d1d98240db6",
+  "name": "ProjectExt",
+  "publisher": "Default publisher",
+  "version": "1.0.0.18",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+   {
+
+          "id": "9d5506e7-057c-4ce9-88b7-de9da2ded1e0",
+          "name": "HarbExt",
+          "publisher": "XEETEK",
+          "version": "1.0.2.37"
+        }
+ 
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 60100,
+      "to": 60149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

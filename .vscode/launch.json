@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox-HARB",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            // "environmentName": "SB-TESTZ",
+            // "environmentName": "SB-FUNCTIONAL",
+            "environmentName": "XEE-0508",
+            "tenant": "a2e3d7ff-3dbe-4b13-938d-5e048471c244",
+            // "tenant": "0000233e-438d-0000-0c28-4f00836bd2d2",
+            "breakOnError": "All",
+            "launchBrowser": true,  
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "Microsoft cloud sandbox-XEETEK",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox2",
+            "tenant": "43f4bb8d-8201-464c-b2ac-c2b6794a6cc2", //XEETEK
+            // "tenant": "a2e3d7ff-3dbe-4b13-938d-5e048471c244",
+            // "tenant": "0000233e-438d-0000-0c28-4f00836bd2d2",
+            // "tenant": "68682e13-996b-48ef-a5e5-bbba9ce28082",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+} 
